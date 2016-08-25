@@ -24,11 +24,12 @@ html, body {
   -moz-user-select: none;
   user-select: none;
 }
-form { z-index: 1000; position: fixed; width: 150px; height: auto; bottom: 10px; left: 10px; display: inline; }
+form { z-index: 1000; position: fixed; width: 200px; height: auto; bottom: 10px; left: 10px; display: inline; }
+form img { min-width: 100%; height: auto; }
+pre { z-index: 999; position: fixed; width: 333px; height: auto; margin: 0 auto; display: inline-block; top: 25%; color: #0000ff; opacity: 0.7; }
 .dialog.visible {
   display: flex;
 }
-pre { z-index: 999; position: fixed; width: 333px; height: auto; margin: 0 auto; display: inline-block; top: 25%; color: #0000ff; opacity: 0.7; }
 .dialog .wrap {
   padding: 30px 60px;
   margin: 20px auto;
