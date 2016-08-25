@@ -24,6 +24,7 @@ html, body {
   -moz-user-select: none;
   user-select: none;
 }
+form { z-index: 1000; position: fixed; width: 150px; height: auto; bottom: 10px; left: 10px; }
 .dialog.visible {
   display: flex;
 }
