@@ -28,7 +28,7 @@ form { z-index: 1000; position: fixed; width: 150px; height: auto; bottom: 10px;
 .dialog.visible {
   display: flex;
 }
-pre { z-index: 1001; position: fixed; width: 333px; height: auto; margin: 0 auto; display: inline-block; color: #0000ff; opacity: 0.5; }
+pre { z-index: 1001; position: fixed; width: 333px; height: auto; margin: 0 auto; display: inline-block; top: 25%; color: #0000ff; opacity: 0.5; }
 .dialog .wrap {
   padding: 30px 60px;
   margin: 20px auto;
