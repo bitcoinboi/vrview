@@ -24,7 +24,8 @@ html, body {
   -moz-user-select: none;
   user-select: none;
 }
-a.serenity { font-family: sans-serif; font-color: #fff; font-weight: bold; text-decoration: none; border-bottom: 2px solid #fff; position: fixed; top: 10px; right: 10px; z-index: 999; padding: 1px; display: block; }
+a.serenity { font-family: sans-serif; font-color: #fff; font-weight: bold; text-decoration: none; border-bottom: 2px solid #fff; position: fixed; top: 10px; left: 10px; z-index: 999; padding: 1px; display: block; }
+a.chaos { font-family: sans-serif; font-color: #fff; font-weight: bold; text-decoration: none; border-bottom: 2px solid #fff; position: fixed; top: 10px; right: 10px; z-index: 999; padding: 1px; display: block; }
 form { z-index: 1000; position: fixed; width: 175px; height: 75px; bottom: 10px; left: 10px; display: inline; }
 form img { min-width: 100%; height: auto; }
 pre { z-index: 999; position: fixed; width: 150px; height: auto; display: inline; bottom: 10px; left: 10px; color: #0000ff; opacity: 0.3; }
