@@ -26,7 +26,7 @@ html, body {
 }
 form { z-index: 1000; position: fixed; width: 175px; height: auto; bottom: 10px; left: 10px; display: inline; }
 form img { min-width: 100%; height: auto; }
-pre { z-index: 999; position: fixed; width: 100px; height: auto; display: inline-block; bottom: 10px; right: 10px; color: #0000ff; opacity: 0.5; }
+pre { z-index: 999; position: fixed; width: 150px; height: auto; display: inline; bottom: 10px; right: 10px; color: #0000ff; opacity: 0.5; }
 .dialog.visible {
   display: flex;
 }
